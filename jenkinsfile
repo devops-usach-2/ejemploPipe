@@ -2,10 +2,6 @@ pipeline {
     agent any
 
     stages {
-        stage('Permisos') {
-            steps {
-                 sh 'chmod 777 ./mvnw'
-            }
             
         stage('Build') {
             steps {
